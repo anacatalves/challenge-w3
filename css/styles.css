@@ -83,6 +83,7 @@ body{
 }
 
 .main-content-column{
+    width:60%;
     padding:5%;
 }
 
@@ -130,7 +131,7 @@ h4{
 }
 
 p{
-    font-size:20px;
+    font-size:15px;
     
 }
 
@@ -159,7 +160,8 @@ p{
     position:relative;
 
     opacity:0.8;
-    transition: width 2s;
+    transition: width 1.5s;
+    transition-timing-function: ease-in-out
 }
 
 .footer-content-column:hover{
@@ -185,8 +187,6 @@ p{
     align-items:center;
 
     background-color:#F3F3F3;
-
-
 }
 
 .credits p{
